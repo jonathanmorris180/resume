@@ -21,6 +21,10 @@
 \documentclass[12pt, letterpaper]{awesome-cv}
 \input{env.tex}
 
+% Date format
+\newdateformat{monthyeardate}{%
+  \monthname[\THEMONTH] \THEYEAR}
+
 % Configure page margins with geometry
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=14.5pt}
 
@@ -82,7 +86,6 @@
 %-------------------------------------------------------------------------------
 \begin{document}
 
-
 % Print the header with above personal information
 % Give optional argument to change alignment(C: center, L: left, R: right)
 \makecvheader[C]
@@ -90,7 +93,7 @@
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
 \makecvfooter
-  {Updated: \today}
+  {Updated: \monthyeardate\today}
   {Jonathan Morris~~~·~~~Résumé}
   {\thepage}
 
