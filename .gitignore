@@ -305,3 +305,6 @@ TSWLatexianTemp*
 #*Notes.bib
 
 .DS_Store
+
+# Actual cover letters
+cover-letters/*
