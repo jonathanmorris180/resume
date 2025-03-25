@@ -761,6 +761,7 @@
 % Define an environment for cvletter
 \newenvironment{cvletter}{%
   \lettertextstyle
+  \raggedright
 }{%
 }
 
