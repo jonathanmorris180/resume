@@ -1,11 +1,11 @@
+latexmk
 enumitem
 xifthen
-ifmtarg
 xstring
-fontawesome5
-roboto
-sourcesanspro
-tcolorbox
-tikzfill
 datetime
 fmtcount
+fontawesome5
+roboto
+sourcesans
+tcolorbox
+tikzfill
