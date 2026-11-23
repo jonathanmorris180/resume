@@ -9,3 +9,9 @@ roboto
 sourcesans
 tcolorbox
 tikzfill
+fontspec
+parskip
+ragged2e
+setspace
+unicode-math
+xkeyval

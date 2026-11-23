@@ -17,6 +17,10 @@
 %-------------------------------------------------------------------------------
 % CONFIGURATIONS
 %-------------------------------------------------------------------------------
+% Pin LaTeX kernel (and rollback-aware packages like array) to a known release
+% so newer TeX Live installs don't change the layout. See README.md.
+\RequirePackage[2025-11-01]{latexrelease}
+
 % A4 paper size by default, use 'letterpaper' for US letter
 \documentclass[11pt, a4paper]{awesome-cv}
 
